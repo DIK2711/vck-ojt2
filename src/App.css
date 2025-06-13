@@ -1,0 +1,42 @@
+/* src/App.css*/
+/* General layout for the entire app*/
+.main-layout{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f7f6;
+  justify-content: center;
+  align-items: center;
+
+/* A very light grey background for the whole app*/
+}
+.content{
+  background-color: #52d2d2;
+  flex-grow:1 ;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right:600px ;
+  padding-left: 660px;
+  padding-top: 200px;
+  padding-bottom: 350px;
+  position: fixed;
+}
+.content{
+  padding-right:600px ;
+  padding-left: 660px;
+  padding-top: 200px;
+  padding-bottom:350px ;
+  position: fixed;
+}
+html,
+body{
+  margin:0;
+  overflow: hidden;
+  font-family: Arial,  sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+

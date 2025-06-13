@@ -1,0 +1,51 @@
+.navbar{
+ background-color:rgb(17,92,232) ;
+ padding: 40px 40px;
+ display: flex;
+ justify-content: space-between;
+
+ font-weight: bold;
+ font-family: 'Times New Roman', Times, serif;
+ align-items: center;
+
+ position: fixed;
+ top: 0;
+ left:0;
+ right:0;
+ height:0;
+ z-index:1000 ;
+ font-size:xx-large;
+ gap: 20px;
+ padding:40px 40px;
+ color: black;
+}
+.navbar a:hover{
+    color: blue;
+    
+}
+.name{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    word-spacing: 10px;
+
+}
+.button{
+    background-color: reb (44,173,44);
+    color: white;
+    border-radius: 10px;
+    word-spacing: normal;
+    box-sizing: border-box;
+}
+.j{
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+}
+
+.n{
+    color:white;
+    font-size: large;
+}
+
+    
