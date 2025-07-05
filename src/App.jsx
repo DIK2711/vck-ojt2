@@ -7,6 +7,7 @@ import AdmissionPage from "./Pages/AdmissionPage";
 import CoursePage from "./Pages/CoursePage";
 import DeveloperInfoPopup from "./Components/DeveloperInfo/DeveloperInfoPopup";
 import NotFoundPage from "./Pages/NotFoundPage";
+import ChatbotComponent from "./Components/Chatbot/ChatbotComponents";
 
 const App=() =>{
  const [showPopup, setShowPopup] = useState(true);
@@ -40,7 +41,7 @@ const App=() =>{
             <Route path="*" element={<NotFoundPage/>}/>
           </Routes>
         </div>
-        
+        <ChatbotComponent/>
       </div>
     </Router>
   </>
